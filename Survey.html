@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Fitness Survey</title>
+<h1 id="title">Fitness Survey</h1>
+
+<body>
+    <p id="description">
+        A fitness survey
+    </p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name"
+                    required /></label>
+            <label id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter your email"
+                    required /></label>
+            <label id="number-label" for="number">Age(optional)<input id="number" type="number" min="18" max="65"
+                    placeholder="Age" required /></label>
+            <label for="dropdown" id="fitness">How often are you active?
+                <select id="dropdown" name="dropdown">
+                    <option value="">Select one</option>
+                    <option value="1">Rarely Active</option>
+                    <option value="1">Moderately Active</option>
+                    <option value="1">Very Active</option>
+                </select>
+            </label>
+            <label id="nutritional" name="nutritional">Do you take nutritional supplements?
+            </label>
+            <label class="align">
+                <input name="yes-no" type="radio" value="1" required />
+                yes
+            </label>
+            <label class="align">
+                <input name="yes-no" type="radio" value="2" required />
+                no
+            </label>
+            <label>What's your goal?</label>
+            <label><input value="1" type="checkbox" />Gain Mass
+            </label>
+            <label><input value="2" type="checkbox" />Lose Weight
+            </label>
+            <label><input value="3" type="checkbox" />Improve Stamina/Endurance
+            </label>
+            <label><input value="4" type="checkbox" />Increase Flexibility
+            </label>
+            <label>Any comments/suggestions?<textarea placeholder="Enter your suggestions here..."></textarea></label>
+            <input id="submit" type="submit">
+        </fieldset>
+        <form>
+
+            <body>
+
+</html>
